@@ -1,0 +1,34 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.MainMenuController.name",
+    "Description": "server.items.MainMenuController.desc"
+  },
+  "Icon": "Icons/ItemsGenerated/IsaacGun.png",
+  "IconProperties": {
+    "Scale": 0.67,
+    "Rotation": [
+      315,
+      86,
+      0
+    ],
+    "Translation": [
+      9,
+      -18
+    ]
+  },
+  "Quality": "Legendary",
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ]
+  },
+  "Interactions": {
+    "Primary": {
+      "Interactions": [
+        {
+          "Type": "Isaac_Main_Menu_Start_Interaction"
+        }
+      ]
+    }
+  }
+}

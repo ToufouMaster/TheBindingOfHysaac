@@ -1,0 +1,62 @@
+{
+  "Model": "NPC/Basement/Clotty/Clotty.blockymodel",
+  "Texture": "NPC/Basement/Clotty/Clotty.png",
+  "HitBox": {
+    "Max": {
+      "X": 0.3,
+      "Y": 1,
+      "Z": 0.3
+    },
+    "Min": {
+      "X": -0.3,
+      "Z": -0.3,
+      "Y": 0
+    }
+  },
+  "EyeHeight": 0.3,
+  "Icon": "Icons/ModelsGenerated/FlyModel.png",
+  "IconProperties": {
+    "Scale": 1.6,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -4
+    ]
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/Clotty/Animations/Clotty_Idle.blockyanim"
+        }
+      ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/Clotty/Animations/Clotty_Idle.blockyanim"
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/Clotty/Animations/Clotty_Hop.blockyanim"
+        }
+      ]
+    },
+    "Attack": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/Clotty/Animations/Clotty_Attack.blockyanim"
+        }
+      ]
+    }
+  }
+}

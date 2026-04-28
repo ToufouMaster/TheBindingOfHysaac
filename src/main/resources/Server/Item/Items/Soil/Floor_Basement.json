@@ -1,0 +1,81 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Floor_Basement.name"
+  },
+  "ItemLevel": 11,
+  "Icon": "Icons/ItemsGenerated/Floor_Basement.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ResourceTypeId": "Soils",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "ItemId": "Soil_Dirt"
+      }
+    },
+    "BlockParticleSetId": "Dirt",
+    "Textures": [
+      {
+        "All": "BlockTextures/Basement/Floor_Basement_0.png",
+        "Weight": 7,
+        "Sides": "BlockTextures/Basement/Wall_Basement_Top.png"
+      },
+      {
+        "All": "BlockTextures/Basement/Floor_Basement_1.png",
+        "Weight": 1,
+        "Sides": "BlockTextures/Basement/Wall_Basement_Top.png"
+      },
+      {
+        "All": "BlockTextures/Basement/Floor_Basement_2.png",
+        "Weight": 1,
+        "Sides": "BlockTextures/Basement/Wall_Basement_Top.png"
+      },
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Basement/Floor_Basement_3.png",
+        "Sides": "BlockTextures/Basement/Wall_Basement_Top.png"
+      }
+    ],
+    "ParticleColor": "#835c31",
+    "BlockSoundSetId": "Dirt"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

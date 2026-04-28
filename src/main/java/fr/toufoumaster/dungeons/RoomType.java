@@ -1,0 +1,28 @@
+package fr.toufoumaster.dungeons;
+
+public enum RoomType {
+    ROOM_NULL,
+    ROOM_DEFAULT,
+    ROOM_SHOP,
+    ROOM_ERROR,
+    ROOM_TREASURE,
+    ROOM_BOSS,
+    ROOM_MINIBOSS,
+    ROOM_SECRET,
+    ROOM_SUPERSECRET,
+    ROOM_ARCADE,
+    ROOM_CURSE ,
+    ROOM_CHALLENGE,
+    ROOM_LIBRARY,
+    ROOM_SACRIFICE,
+    ROOM_DEVIL,
+    ROOM_ANGEL,
+    ROOM_DUNGEON,
+    ROOM_BOSSRUSH,
+    ROOM_ISAACS,
+    ROOM_BARREN,
+    ROOM_CHEST,
+    ROOM_DICE,
+    ROOM_BLACK_MARKET,
+    ROOM_GREED_EXIT,
+}

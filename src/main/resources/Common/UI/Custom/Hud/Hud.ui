@@ -1,0 +1,6 @@
+$C = "../Common.ui";
+Group #HUD {
+  Background: (Color: #33333300);
+  Anchor: (Width: 1920, Height: 1080);
+  LayoutMode: Top;
+}

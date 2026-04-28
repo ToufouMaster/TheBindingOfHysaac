@@ -1,0 +1,209 @@
+$C = "../Common.ui";
+
+Group #Background {
+  LayoutMode: Top;
+  Background: #2a2a3a;
+  Anchor: (Width: 1200, Height: 600);
+  Label #Title {
+    Text: "Room Manager";
+    Anchor: (Height: 50);
+    Style: (FontSize: 32, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+  }
+  Group #HorizontalGroup {
+    LayoutMode: Center;
+    Background: #2a2a3a;
+    Padding: (Full: 10);
+      Group #Templates {
+        Anchor: (Width: 390, Height: 550);
+        Background: #1f1f2c;
+        Label {
+          Anchor: (Width: 390, Height: 50, Top: 0);
+          Text: "Templates";
+          Style: (FontSize: 24, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Left: 10, Top: 60);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/1.png"));
+          Label #ButtonLabel {
+            Text: "1x1";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Left: 147, Top: 60);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/2.png"));
+          Label #ButtonLabel {
+            Text: "IH";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Right: 10, Top: 60);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/3.png"));
+          Label #ButtonLabel {
+            Text: "IV";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Left: 10, Top: 164);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/4.png"));
+          Label #ButtonLabel {
+            Text: "1x2";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Left: 147, Top: 164);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/5.png"));
+          Label #ButtonLabel {
+            Text: "IIV";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Right: 10, Top: 164);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/6.png"));
+          Label #ButtonLabel {
+            Text: "2x1";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Left: 10, Top: 268);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/7.png"));
+          Label #ButtonLabel {
+            Text: "IIH";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Left: 147, Top: 268);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/8.png"));
+          Label #ButtonLabel {
+            Text: "2x2";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Right: 10, Top: 268);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/9.png"));
+          Label #ButtonLabel {
+            Text: "LTL";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Left: 10, Top: 372);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/10.png"));
+          Label #ButtonLabel {
+            Text: "LTR";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Left: 147, Top: 372);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/11.png"));
+          Label #ButtonLabel {
+            Text: "LBL";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+
+        Button {
+          Anchor: (Width: 96, Height: 96, Right: 10, Top: 372);
+          Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/12.png"));
+          Label #ButtonLabel {
+            Text: "LBR";
+            Style: (FontSize: 32, TextColor: #000000, RenderBold: true, HorizontalAlignment: Center, VerticalAlignment: Center);
+          }
+        }
+      }
+      Group #Right {
+        Anchor: (Left: 20, Width: 775, Height: 550);
+        LayoutMode: Top;
+
+        Group #Manage {
+          Anchor: (Left: 0, Width: 775, Height: 220);
+          LayoutMode: Center;
+          Padding: (Full: 10);
+          Background: #1f1f2c;
+
+          Group #RoomIcon {
+            Anchor: (Width: 96, Height: 96);
+            Background: (PatchStyle(TexturePath: "../Hud/MiniMapAssets/10.png"));
+            //AssetPath: "UI/Custom/Hud/MiniMapAssets/8.png";
+          }
+
+          Group {
+            Anchor: (Left: 10, Width: 130, Height: 100);
+            Background: #1a1a2a;
+            DropdownBox #RoomType {
+              Anchor: (Left: 10, Width: 130, Height: 100);
+              Value: "";
+              NoItemsText: "General";
+              Style: (LabelStyle: (FontSize: 20, HorizontalAlignment: Center, VerticalAlignment: Center));
+              DropdownEntry {
+                Text: "General";
+                Value: "";
+              }
+              DropdownEntry {
+                Text: "Treasure";
+                Value: "treasure";
+              }
+              DropdownEntry {
+                Text: "Devil";
+                Value: "devil";
+              }
+              DropdownEntry {
+                Text: "Angel";
+                Value: "angel";
+              }
+              DropdownEntry {
+                Text: "Secret";
+                Value: "secret";
+              }
+              DropdownEntry {
+                Text: "Super Secret";
+                Value: "supersecret";
+              }
+            }
+          }
+
+          TextField #RoomName {
+            PlaceholderText: "Room Name...";
+            Anchor: (Left: 10, Width: 300, Height: 100);
+            Padding: (Top: 8, Bottom: 8, Left: 12, Right: 12);
+            Background: #1a1a2a;
+          }
+          Button #SaveButton {
+            Anchor: (Left: 10, Width: 150, Height: 100);
+            Background: #29ce00;
+            Label {
+              Text: "Save Room";
+              Style: (FontSize: 20, TextColor: #ffffff, HorizontalAlignment: Center, VerticalAlignment: Center);
+            }
+          }
+        }
+
+        Group #Custom {
+          Anchor: (Left: 0, Top: 10, Width: 775, Height: 320);
+          LayoutMode: TopScrolling;
+          Padding: (Full: 10);
+          Background: #1f1f2c;
+
+        }
+      }
+  }
+}

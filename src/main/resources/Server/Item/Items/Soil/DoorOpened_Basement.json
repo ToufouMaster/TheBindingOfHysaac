@@ -1,0 +1,38 @@
+{
+  "Parent": "DoorClosed_Basement",
+  "BlockType": {
+    "Parent": "DoorClosed_Basement",
+    "CustomModelAnimation": "Items/OpenDoors.blockyanim",
+    "IsDoor": false,
+    "DrawType": "Model",
+    "Material": "Empty",
+    "Interactions": {
+      "CollisionEnter": {
+        "Interactions": [
+          {
+            "Type": "Isaac_Door_Enter_Interaction"
+          }
+        ],
+        "Cooldown": {
+          "Id": "DoorCooldown",
+          "Cooldown": 1
+        }
+      }
+    },
+    "AllowsMultipleUsers": false
+  },
+  "UsePlayerAnimations": false,
+  "Icon": "Icons/ItemsGenerated/DoorOpened_Basement.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

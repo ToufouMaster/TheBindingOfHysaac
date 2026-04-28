@@ -1,0 +1,42 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Fireplace.name"
+  },
+  "ItemLevel": 11,
+  "Icon": "Icons/ItemsGenerated/Rock_Basement.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Group": "Dirt",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#371d00",
+    "BlockSoundSetId": "Stone",
+    "VariantRotation": "NESW",
+    "RotationYawPlacementOffset": "None",
+    "FlipType": "Symmetric",
+    "CustomModel": "Items/Model_Fireplace_1.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Basement/Fireplace_Default_1.png"
+      }
+    ],
+    "RequiresAlphaBlending": false,
+    "RandomRotation": "YawStep1",
+    "CustomModelScale": 1.0
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

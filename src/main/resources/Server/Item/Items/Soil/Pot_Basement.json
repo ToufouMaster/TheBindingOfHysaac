@@ -1,0 +1,48 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Pot_Basement.name"
+  },
+  "ItemLevel": 11,
+  "Icon": "Icons/ItemsGenerated/Pots.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Dirt",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#371d00",
+    "BlockSoundSetId": "Stone",
+    "VariantRotation": "NESW",
+    "RotationYawPlacementOffset": "None",
+    "FlipType": "Symmetric",
+    "CustomModel": "Items/Model_Pot_1.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Basement/Pot_Basement_1.png",
+        "Weight": 1
+      },
+      {
+        "Texture": "BlockTextures/Basement/Pot_Basement_2.png",
+        "Weight": 1
+      }
+    ],
+    "RequiresAlphaBlending": false,
+    "RandomRotation": "YawStep1",
+    "CustomModelScale": 1,
+    "Opacity": "Solid"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

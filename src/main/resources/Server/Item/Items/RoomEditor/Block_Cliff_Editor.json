@@ -1,0 +1,13 @@
+{
+  "BlockType": {
+    "Textures": [
+      {
+        "All": "BlockTextures/cliff_editor.png"
+      }
+    ],
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": true
+  },
+  "PlayerAnimationsId": "Block"
+}

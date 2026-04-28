@@ -1,0 +1,24 @@
+{
+  "Parent": "Bossroom_DoorClosed_Basement",
+  "BlockType": {
+    "Parent": "Bossroom_DoorClosed_Basement",
+    "CustomModelAnimation": "Items/Bossroom_Door_Open.blockyanim",
+    "IsDoor": false,
+    "DrawType": "Model",
+    "Material": "Empty"
+  },
+  "UsePlayerAnimations": false,
+  "Icon": "Icons/ItemsGenerated/DoorOpened_Basement.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

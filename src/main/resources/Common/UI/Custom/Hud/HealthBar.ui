@@ -1,0 +1,5 @@
+$C = "../Common.ui";
+Group #HealthBar {
+  Background: (Color: #33333300);
+  Anchor: (Width: 250, Height: 250, Left: 0, Top: -250);
+}

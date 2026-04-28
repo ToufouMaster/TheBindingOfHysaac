@@ -1,0 +1,27 @@
+{
+  "Type": "Abstract",
+  "KnockbackScale": 0.5,
+  "StartState": "Idle",
+  "MaxHealth": 10,
+  "Appearance": "HorfModel",
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": 7,
+      "Gravity": 10,
+      "MaxFallSpeed": 8,
+      "Acceleration": 10,
+      "MaxRotationSpeed": 180
+    }
+  ],
+  "NameTranslationKey": "server.npcRoles.IsaacMonster.name",
+  "Instructions": [
+    {
+      "Sensor": {
+        "Type": "State",
+        "State": "Idle"
+      },
+      "Instructions": []
+    }
+  ]
+}

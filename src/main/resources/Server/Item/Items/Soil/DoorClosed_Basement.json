@@ -1,0 +1,66 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Door_Basement.name"
+  },
+  "ItemLevel": 11,
+  "Icon": "Icons/ItemsGenerated/DoorClosed_Basement.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ResourceTypeId": "Soils",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "BlockParticleSetId": "Dirt",
+    "ParticleColor": "#835c31",
+    "BlockSoundSetId": "Dirt",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Basement/Door_Basement_Proto.png"
+      }
+    ],
+    "VariantRotation": "NESW",
+    "CustomModel": "Items/DoorBlock.blockymodel",
+    "RotationYawPlacementOffset": "Ninety",
+    "CustomModelAnimation": "Items/CloseDoors.blockyanim",
+    "CubeShadingMode": "Standard",
+    "RequiresAlphaBlending": false,
+    "CustomModelScale": 1,
+    "HitboxType": "Door_Closed"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Model": "Items/DoorBlock.blockymodel",
+  "Animation": "Items/OpenDoors.blockyanim"
+}

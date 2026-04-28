@@ -1,0 +1,51 @@
+{
+  "BlockType": {
+    "DrawType": "Cube",
+    "Textures": [
+      {
+        "All": "Items/IsaacTear.png"
+      }
+    ],
+    "Material": "Solid",
+    "RequiresAlphaBlending": true,
+    "BlockSoundSetId": "Bone",
+    "BlockParticleSetId": "Clay",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "OpenCustomUI",
+            "Page": {
+              "Id": "RoomManager"
+            }
+          }
+        ]
+      }
+    },
+    "BlockEntity": {
+      "Components": {
+        "RoomManagerBlock": {}
+      }
+    }
+  },
+  "Icon": "Icons/ItemsGenerated/RoomManager.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.RoomManager.name"
+  },
+  "ItemLevel": 1,
+  "ItemSoundSetId": "ISS_Default",
+  "Set": "Soil",
+  "PlayerAnimationsId": "Block"
+}

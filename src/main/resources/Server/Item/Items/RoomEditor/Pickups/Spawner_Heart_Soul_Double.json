@@ -1,0 +1,29 @@
+{
+  "Parent": "Spawner_Block_Base",
+  "BlockType": {
+    "CustomModel": "NPC/Pickups/HeartRed/Model_Heart_Double.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Pickups/HeartSoul/Heart_Soul.png"
+      }
+    ],
+    "Parent": "Spawner_Block_Base",
+    "RandomRotation": "None"
+  },
+  "Icon": "Icons/ItemsGenerated/Heart_Soul_Double.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Spawner_Heart_Soul_Double"
+  }
+}

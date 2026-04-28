@@ -1,0 +1,21 @@
+{
+  "BlockType": {
+    "Textures": [
+      {
+        "All": "BlockTextures/cliff_editor.png"
+      }
+    ],
+    "Material": "Empty",
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": true,
+    "DrawType": "Model",
+    "CustomModel": "Items/Spike.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Basement/Spike.png"
+      }
+    ],
+    "DamageToEntities": 1
+  },
+  "PlayerAnimationsId": "Block"
+}

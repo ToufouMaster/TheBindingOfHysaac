@@ -1,0 +1,62 @@
+{
+  "Model": "Items/Model_Poop.blockymodel",
+  "Texture": "NPC/Basement/Poop/Poop_Gold.png",
+  "HitBox": {
+    "Max": {
+      "X": 0.25,
+      "Y": 1,
+      "Z": 0.25
+    },
+    "Min": {
+      "X": -0.25,
+      "Z": -0.25,
+      "Y": 0
+    }
+  },
+  "EyeHeight": 0.3,
+  "Icon": "Icons/ModelsGenerated/HorfModel.png",
+  "IconProperties": {
+    "Scale": 0.25,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -42
+    ]
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "AnimationSets": {
+    "Poop_State_1": {
+      "Animations": [
+        {
+          "Animation": "Items/Poop_State_1.blockyanim"
+        }
+      ]
+    },
+    "Poop_State_2": {
+      "Animations": [
+        {
+          "Animation": "Items/Poop_State_2.blockyanim"
+        }
+      ]
+    },
+    "Poop_State_3": {
+      "Animations": [
+        {
+          "Animation": "Items/Poop_State_3.blockyanim"
+        }
+      ]
+    },
+    "Poop_State_4": {
+      "Animations": [
+        {
+          "Animation": "Items/Poop_State_4.blockyanim"
+        }
+      ]
+    }
+  }
+}

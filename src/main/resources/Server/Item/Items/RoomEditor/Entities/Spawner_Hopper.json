@@ -1,0 +1,30 @@
+{
+  "Parent": "Spawner_Block_Base",
+  "Icon": "Icons/ItemsGenerated/Spawner_Hopper.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -38
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Spawner_Hopper"
+  },
+  "BlockType": {
+    "CustomModel": "NPC/Basement/Hopper/Model_Hopper.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Basement/Hopper/Hopper.png"
+      }
+    ],
+    "Parent": "Spawner_Block_Base",
+    "RandomRotation": "None",
+    "CustomModelAnimation": "NPC/Basement/Hopper/Animations/Hopper_Jump_Down.blockyanim"
+  }
+}

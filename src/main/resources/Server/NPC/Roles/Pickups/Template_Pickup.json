@@ -1,0 +1,50 @@
+{
+  "Type": "Abstract",
+  "KnockbackScale": 0.5,
+  "MaxHealth": 10,
+  "StartState": "Spawning",
+  "MotionControllerList": [
+    {
+      "Type": "Walk",
+      "MaxWalkSpeed": 7,
+      "Gravity": 10,
+      "MaxFallSpeed": 10,
+      "Acceleration": 10,
+      "MaxRotationSpeed": 180
+    }
+  ],
+  "NameTranslationKey": "server.npcRoles.IdleNPC.name",
+  "Parameters": {
+    "Appearance": {
+      "Value": "Pickup_Coin",
+      "Description": "Model to be used"
+    }
+  },
+  "Appearance": {
+    "Compute": "Appearance"
+  },
+  "Instructions": [
+    {
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Idle"
+          }
+        },
+        {
+          "Sensor": {
+            "Type": "State",
+            "State": "Spawning"
+          },
+          "Actions": [
+            {
+              "Type": "State",
+              "State": "Idle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

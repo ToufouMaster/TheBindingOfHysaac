@@ -1,0 +1,68 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Wall_Basement.name"
+  },
+  "ItemLevel": 11,
+  "Icon": "Icons/ItemsGenerated/Wall_Basement.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "Recipe": {
+    "TimeSeconds": 0,
+    "Input": [
+      {
+        "ResourceTypeId": "Soils",
+        "Quantity": 1
+      },
+      {
+        "ItemId": "Ingredient_Fibre",
+        "Quantity": 1
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Type": "Crafting",
+        "Id": "Farmingbench",
+        "Categories": [
+          "Decorative"
+        ]
+      }
+    ]
+  },
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Dirt",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Soils",
+        "ItemId": "Soil_Dirt"
+      }
+    },
+    "BlockParticleSetId": "Dirt",
+    "Textures": [
+      {
+        "All": "BlockTextures/Basement/Wall_Basement.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#835c31",
+    "BlockSoundSetId": "Dirt",
+    "VariantRotation": "None",
+    "RotationYawPlacementOffset": "None",
+    "FlipType": "Symmetric"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

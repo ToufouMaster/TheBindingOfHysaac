@@ -1,0 +1,42 @@
+{
+  "Model": "NPC/Basement/Hopper/Model_Hopper.blockymodel",
+  "Texture": "NPC/Basement/Hopper/Hopper.png",
+  "HitBox": {
+    "Max": {
+      "X": 0.15,
+      "Y": 5,
+      "Z": 0.15
+    },
+    "Min": {
+      "Z": -0.15,
+      "X": -0.15
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Hopper.png",
+  "IconProperties": {
+    "Scale": 1.6,
+    "Rotation": [
+      349,
+      155,
+      0
+    ],
+    "Translation": [
+      1,
+      -7
+    ]
+  },
+  "Camera": {
+    "PositionOffset": {
+      "Y": 0.5
+    }
+  },
+  "AnimationSets": {
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/Hopper/Animations/Hopper_Jump.blockyanim"
+        }
+      ]
+    }
+  }
+}

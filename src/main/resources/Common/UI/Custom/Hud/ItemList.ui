@@ -1,0 +1,6 @@
+$C = "../Common.ui";
+
+Group #ItemList {
+  Background: #00000000;
+  Anchor: (Width: 256, Height: 512, Right: 0, Top: -300);
+}

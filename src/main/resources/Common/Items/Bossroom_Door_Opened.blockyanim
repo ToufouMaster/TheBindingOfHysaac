@@ -1,0 +1,81 @@
+{
+  "formatVersion": 1,
+  "duration": 102,
+  "holdLastKeyframe": false,
+  "nodeAnimations": {
+    "Skull_2": {
+      "position": [],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": [
+        {
+          "time": 0,
+          "delta": {"x": 20, "y": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 12,
+          "delta": {"x": 20, "y": -12},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 24,
+          "delta": {"x": 20, "y": -24},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 36,
+          "delta": {"x": 20, "y": -36},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 48,
+          "delta": {"x": 20, "y": -24},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 60,
+          "delta": {"x": 20, "y": -12},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 72,
+          "delta": {"x": 20, "y": 0},
+          "interpolationType": "linear"
+        },
+        {
+          "time": 84,
+          "delta": {"x": 0, "y": 0},
+          "interpolationType": "linear"
+        }
+      ]
+    },
+    "Door_Right": {
+      "position": [
+        {
+          "time": 0,
+          "delta": {"x": -11, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        }
+      ],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    },
+    "Door_Left": {
+      "position": [
+        {
+          "time": 0,
+          "delta": {"x": 11, "y": 0, "z": 0},
+          "interpolationType": "linear"
+        }
+      ],
+      "orientation": [],
+      "shapeStretch": [],
+      "shapeVisible": [],
+      "shapeUvOffset": []
+    }
+  }
+}

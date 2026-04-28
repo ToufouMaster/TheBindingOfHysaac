@@ -1,0 +1,224 @@
+$C = "../Common.ui";
+
+Group #StatsList {
+  Background: #00000000;
+  LayoutMode: Top;
+  Anchor: (Width: 250, Height: 500, Left: 0, Top: -100);
+  Group #Coins {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+      AssetPath: "UI/Custom/Hud/Stats/Coin.png";
+    }
+    Label #Amount {
+      Text: "00";
+      Padding: (Left: 10);
+      Style: (FontSize: 32, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+  }
+  Group #Bombs {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+    }
+    Label #Amount {
+      Text: "00";
+      Padding: (Left: 10);
+      Style: (FontSize: 32, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+  }
+  Group #Keys {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+    }
+    Label #Amount {
+      Text: "00";
+      Padding: (Left: 10);
+      Style: (FontSize: 32, TextColor: #ffffff, RenderBold: true, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+  }
+  Group #Goals {
+    Anchor: (Height: 64);
+    LayoutMode: Left;
+    Background: #00000000;
+  }
+  Group #Speed {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+    
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+      AssetPath: "UI/Custom/Hud/Stats/Speed.png";
+    }
+    Label #Amount {
+      Text: "0.00";
+      Padding: (Left: 10);
+      Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+    //Label #Addition {
+    //  Text: "+0.00";
+    //  Anchor: (Width: 100);
+    //Padding: (Left: 10);
+    //Style: (FontSize: 24, TextColor: #22e100, HorizontalAlignment: Start, VerticalAlignment: Center);
+    //}
+  }
+  Group #TearRate {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+    
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+      AssetPath: "UI/Custom/Hud/Stats/TearRate.png";
+    }
+    Label #Amount {
+      Text: "0.00";
+      Padding: (Left: 10);
+      Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+    //Label #Addition {
+    //  Text: "+0.00";
+    //  Anchor: (Width: 100);
+    //Padding: (Left: 10);
+    //Style: (FontSize: 24, TextColor: #22e100, HorizontalAlignment: Start, VerticalAlignment: Center);
+    //}
+  }
+  Group #Damage {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+    
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+      AssetPath: "UI/Custom/Hud/Stats/Damage.png";
+    }
+    Label #Amount {
+      Text: "0.00";
+      Padding: (Left: 10);
+      Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+    //Label #Addition {
+    //  Text: "+0.00";
+    //  Anchor: (Width: 100);
+    //Padding: (Left: 10);
+    //Style: (FontSize: 24, TextColor: #22e100, HorizontalAlignment: Start, VerticalAlignment: Center);
+    //}
+  }
+  Group #Range {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+    
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+      AssetPath: "UI/Custom/Hud/Stats/Range.png";
+    }
+    Label #Amount {
+      Text: "0.00";
+      Padding: (Left: 10);
+      Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+    //Label #Addition {
+    //  Text: "+0.00";
+    //  Anchor: (Width: 100);
+    //Padding: (Left: 10);
+    //Style: (FontSize: 24, TextColor: #22e100, HorizontalAlignment: Start, VerticalAlignment: Center);
+    //}
+  }
+  Group #ShootSpeed {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+    
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+      AssetPath: "UI/Custom/Hud/Stats/ShootSpeed.png";
+    }
+    Label #Amount {
+      Text: "0.00";
+      Padding: (Left: 10);
+      Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+    //Label #Addition {
+    //  Text: "+0.00";
+    //  Anchor: (Width: 100);
+    //Padding: (Left: 10);
+    //Style: (FontSize: 24, TextColor: #22e100, HorizontalAlignment: Start, VerticalAlignment: Center);
+    //}
+  }
+  Group #Luck {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+    
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+      AssetPath: "UI/Custom/Hud/Stats/Luck.png";
+    }
+    Label #Amount {
+      Text: "0.00";
+      Padding: (Left: 10);
+      Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+    //Label #Addition {
+    //  Text: "+0.00";
+    //  Anchor: (Width: 100);
+    //Padding: (Left: 10);
+    //Style: (FontSize: 24, TextColor: #22e100, HorizontalAlignment: Start, VerticalAlignment: Center);
+    //}
+  }
+  Group #DevilChance {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+    
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+      AssetPath: "UI/Custom/Hud/Stats/DevilChance.png";
+    }
+    Label #Amount {
+      Text: "0.00";
+      Padding: (Left: 10);
+      Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+    //Label #Addition {
+    //  Text: "+0.00";
+    //  Anchor: (Width: 100);
+    //Padding: (Left: 10);
+    //Style: (FontSize: 24, TextColor: #22e100, HorizontalAlignment: Start, VerticalAlignment: Center);
+    //}
+  }
+  Group #AngelChance {
+    Anchor: (Height: 50);
+    LayoutMode: Left;
+    
+    Background: #00000000;
+    AssetImage #Img {
+      Anchor: (Width: 50, Height: 50);
+      Background: #00000000;
+      AssetPath: "UI/Custom/Hud/Stats/AngelChance.png";
+    }
+    Label #Amount {
+      Text: "0.00";
+      Padding: (Left: 10);
+      Style: (FontSize: 24, TextColor: #ffffff, HorizontalAlignment: Start, VerticalAlignment: Center);
+    }
+    //Label #Addition {
+    //  Text: "+0.00";
+    //  Anchor: (Width: 100);
+    //Padding: (Left: 10);
+    //Style: (FontSize: 24, TextColor: #22e100, HorizontalAlignment: Start, VerticalAlignment: Center);
+    //}
+  }
+}

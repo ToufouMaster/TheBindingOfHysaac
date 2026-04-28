@@ -1,0 +1,67 @@
+{
+  "Model": "NPC/Pickups/HeartRed/Model_Heart.blockymodel",
+  "HitBox": {
+    "Min": {
+      "X": -0.25,
+      "Y": 0.0,
+      "Z": -0.25
+    },
+    "Max": {
+      "Z": 0.25,
+      "X": 0.25,
+      "Y": 0.5
+    }
+  },
+  "Modify": {
+    "Appearance": "Pickup_Coin"
+  },
+  "Texture": "NPC/Pickups/HeartSoul/Heart_Soul_Half.png",
+  "Camera": {
+    "PositionOffset": {
+      "Y": 0.5
+    },
+    "Yaw": {
+      "AngleRange": {
+        "Min": 45,
+        "Max": 45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Pickup_Bomb.png",
+  "IconProperties": {
+    "Scale": 0.8,
+    "Rotation": [
+      0,
+      45,
+      0
+    ],
+    "Translation": [
+      0,
+      -8
+    ]
+  },
+  "EyeHeight": 0.5,
+  "MaxScale": 2,
+  "MinScale": 2,
+  "AnimationSets": {
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pickups/HeartRed/Animations/Heart_Spawn.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Pickups/HeartRed/Animations/Heart_Idle.blockyanim",
+          "Looping": true
+        }
+      ]
+    }
+  }
+}

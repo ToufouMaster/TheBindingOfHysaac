@@ -1,0 +1,62 @@
+{
+  "Model": "NPC/Basement/BabyPlum/Model_Baby_Plum.blockymodel",
+  "Texture": "NPC/Basement/BabyPlum/Baby_Plum.png",
+  "HitBox": {
+    "Max": {
+      "X": 0.5,
+      "Y": 1,
+      "Z": 0.5
+    },
+    "Min": {
+      "X": -0.5,
+      "Z": -0.5,
+      "Y": 0
+    }
+  },
+  "EyeHeight": 0.3,
+  "Icon": "Icons/ModelsGenerated/FlyModel.png",
+  "IconProperties": {
+    "Scale": 1.6,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -4
+    ]
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/BabyPlum/Animations/Baby_Plum_Idle.blockyanim"
+        }
+      ]
+    },
+    "Attack": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/BabyPlum/Animations/Baby_Plum_Attack_1.blockyanim"
+        }
+      ]
+    },
+    "Attack2": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/BabyPlum/Animations/Baby_Plum_Attack_1_Flip.blockyanim"
+        }
+      ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/BabyPlum/Animations/Baby_Plum_Spawn.blockyanim"
+        }
+      ]
+    }
+  }
+}

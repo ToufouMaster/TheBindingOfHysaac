@@ -1,0 +1,7 @@
+{
+  "Type": "Chaining",
+  "ChainingAllowance": 0.1,
+  "Next": [
+    "IsaacTearShoot"
+  ]
+}

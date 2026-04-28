@@ -1,0 +1,44 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Boossroom_Door_Basement.name"
+  },
+  "ItemLevel": 11,
+  "Icon": "Icons/ItemsGenerated/DoorClosed_Basement.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "BlockParticleSetId": "Dirt",
+    "ParticleColor": "#835c31",
+    "BlockSoundSetId": "Dirt",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Basement/Bossroom_Door.png"
+      }
+    ],
+    "VariantRotation": "NESW",
+    "CustomModel": "Items/Model_Bossroom_Door.blockymodel",
+    "RotationYawPlacementOffset": "None",
+    "CustomModelAnimation": "Items/Bossroom_Door_Closed.blockyanim",
+    "CubeShadingMode": "Standard",
+    "RequiresAlphaBlending": false,
+    "CustomModelScale": 1,
+    "HitboxType": "Door_Closed"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Model": "Items/DoorBlock.blockymodel",
+  "Animation": "Items/OpenDoors.blockyanim"
+}

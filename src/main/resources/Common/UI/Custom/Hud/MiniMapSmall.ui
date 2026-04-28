@@ -1,0 +1,5 @@
+$C = "../Common.ui";
+Group #MiniMap {
+  Background: (Color: #333333);
+  Anchor: (Width: 250, Height: 250, Right: 0, Top: 0);
+}

@@ -1,0 +1,20 @@
+{
+    "Group": "ToufouMaster",
+    "Name": "TheBindingOfHysaac",
+    "Version": "0.0.1",
+    "Description": "Description of your plugin",
+    "Authors": [
+        {
+            "Name": "ToufouMaster",
+            "Email": "owen.kala@gmx.fr",
+            "Url": "github.com/toufoumaster"
+        }
+    ],
+    "Website": "github.com/toufoumaster",
+    "DisabledByDefault": false,
+    "IncludesAssetPack": true,
+    "Dependencies": {},
+    "OptionalDependencies": {},
+    "ServerVersion": "2026.03.26-89796E57B",
+    "Main": "fr.toufoumaster.TheBindingOfHysaac"
+}

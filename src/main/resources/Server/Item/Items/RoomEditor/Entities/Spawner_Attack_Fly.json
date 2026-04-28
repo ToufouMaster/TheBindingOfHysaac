@@ -1,0 +1,30 @@
+{
+  "Parent": "Spawner_Block_Base",
+  "Icon": "Icons/ItemsGenerated/Spawner_Attack_Fly.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -38
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Spawner_Attack_Fly"
+  },
+  "BlockType": {
+    "CustomModel": "NPC/Basement/Fly/Model_Fly.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Basement/Fly/Fly.png"
+      }
+    ],
+    "Parent": "Spawner_Block_Base",
+    "RandomRotation": "None",
+    "CustomModelAnimation": "NPC/Basement/Fly/Animations/Attack_Fly_Idle.blockyanim"
+  }
+}

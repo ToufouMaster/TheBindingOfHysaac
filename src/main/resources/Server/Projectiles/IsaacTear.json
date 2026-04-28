@@ -1,0 +1,12 @@
+{
+  "Appearance": "IsaacTear",
+  "Damage": 1,
+  "Radius": 0.5,
+  "Height": 0.5,
+  "PitchAdjustShot": true,
+  "DepthShot": 0.2,
+  "TerminalVelocity": 5,
+  "MuzzleVelocity": 5,
+  "DeadTimeMiss": 0,
+  "SticksVertically": true
+}

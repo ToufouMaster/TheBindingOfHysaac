@@ -1,0 +1,34 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Spawner_Pickup_Random"
+  },
+  "ItemLevel": 11,
+  "Icon": "Icons/ItemsGenerated/Rock_Basement.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Group": "Dirt",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#371d00",
+    "BlockSoundSetId": "Stone",
+    "RequiresAlphaBlending": false,
+    "CustomModelScale": 1.0,
+    "Opacity": "Solid",
+    "RandomRotation": "None"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

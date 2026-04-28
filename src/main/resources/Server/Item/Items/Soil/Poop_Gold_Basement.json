@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Poop_Gold_Basement.name"
+  },
+  "ItemLevel": 11,
+  "Icon": "Icons/ItemsGenerated/Poop_Gold.png",
+  "PlayerAnimationsId": "Block",
+  "Set": "Soil",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Model",
+    "Group": "Dirt",
+    "BlockParticleSetId": "Stone",
+    "ParticleColor": "#371d00",
+    "BlockSoundSetId": "Stone",
+    "VariantRotation": "NESW",
+    "RotationYawPlacementOffset": "None",
+    "FlipType": "Symmetric",
+    "CustomModel": "Items/Model_Poop.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Basement/Poop_Gold.png"
+      }
+    ],
+    "RequiresAlphaBlending": false,
+    "RandomRotation": "YawStep1",
+    "CustomModelScale": 1.0,
+    "CustomModelAnimation": "Items/Poop_State_1.blockyanim"
+  },
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

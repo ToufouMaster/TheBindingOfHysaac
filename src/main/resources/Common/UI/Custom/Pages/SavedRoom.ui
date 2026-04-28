@@ -1,0 +1,28 @@
+$C = "../Common.ui";
+
+Group {
+  Anchor: (Height: 100);
+  LayoutMode: Left;
+  Background: #2a2a3a;
+  Label #RoomName {
+    //Text: "Room_2x2_Basement_1";
+    Anchor: (Left: 10, Width: 389, Height: 90);
+    Style: (FontSize: 20, TextColor: #ffffff, HorizontalAlignment: Start, VerticalAlignment: Center);
+  }
+  Button #Edit {
+    Anchor: (Width: 100, Height: 40);
+    Background: #4a81ff;
+    Label #ButtonLabel {
+      Text: "Edit";
+      Style: (FontSize: 14, TextColor: #ffffff, HorizontalAlignment: Center, VerticalAlignment: Center);
+    }
+  }
+  Button #Delete {
+    Anchor: (Left: 10, Width: 100, Height: 40);
+    Background: #ff2025;
+    Label #ButtonLabel1 {
+      Text: "Delete";
+      Style: (FontSize: 14, TextColor: #ffffff, HorizontalAlignment: Center, VerticalAlignment: Center);
+    }
+  }
+}

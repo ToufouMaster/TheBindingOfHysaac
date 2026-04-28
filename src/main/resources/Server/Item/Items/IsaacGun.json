@@ -1,0 +1,50 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.IsaacGun.name",
+    "Description": "server.items.IsaacGun.desc"
+  },
+  "Icon": "Icons/ItemsGenerated/IsaacGun.png",
+  "Interactions": {
+    "Primary": {
+      "Cooldown": {
+        "Cooldown": 0.1,
+        "Id": "tearCooldown"
+      },
+      "Interactions": [
+        {
+          "Type": "Isaac_Tear_Use_Interaction"
+        }
+      ]
+    },
+    "Ability2": {
+      "RequireNewClick": true,
+      "Interactions": [
+        {
+          "Type": "Isaac_Bomb_Use_Interaction"
+        }
+      ]
+    }
+  },
+  "IconProperties": {
+    "Scale": 0.67,
+    "Rotation": [
+      315,
+      86,
+      0
+    ],
+    "Translation": [
+      9,
+      -18
+    ]
+  },
+  "Utility": {
+    "Compatible": true
+  },
+  "Quality": "Legendary",
+  "Tags": {
+    "Type": [
+      "Weapon"
+    ]
+  },
+  "Weapon": {}
+}

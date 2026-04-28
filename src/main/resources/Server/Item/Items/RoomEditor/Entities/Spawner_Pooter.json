@@ -1,0 +1,29 @@
+{
+  "Parent": "Spawner_Block_Base",
+  "Icon": "Icons/ItemsGenerated/Spawner_Pooter.png",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -38
+    ]
+  },
+  "TranslationProperties": {
+    "Name": "server.items.Spawner_Pooter"
+  },
+  "BlockType": {
+    "CustomModel": "NPC/Basement/Horf/Model_Horf.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "NPC/Basement/Horf/Horf.png"
+      }
+    ],
+    "Parent": "Spawner_Block_Base",
+    "RandomRotation": "None"
+  }
+}

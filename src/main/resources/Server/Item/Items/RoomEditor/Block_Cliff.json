@@ -1,0 +1,15 @@
+{
+  "BlockType": {
+    "Textures": [
+      {
+        "All": "BlockTextures/transparent.png"
+      }
+    ],
+    "Material": "Solid",
+    "Opacity": "Solid",
+    "RequiresAlphaBlending": true,
+    "HitboxType": "Block_Cliff",
+    "DamageToEntities": 0
+  },
+  "PlayerAnimationsId": "Block"
+}

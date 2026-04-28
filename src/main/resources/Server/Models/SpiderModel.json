@@ -1,0 +1,55 @@
+{
+  "Model": "NPC/Basement/Spider/Model_Spider.blockymodel",
+  "Texture": "NPC/Basement/Spider/Spider_Red.png",
+  "HitBox": {
+    "Max": {
+      "X": 0.2,
+      "Y": 1,
+      "Z": 0.2
+    },
+    "Min": {
+      "X": -0.2,
+      "Z": -0.2,
+      "Y": 0
+    }
+  },
+  "EyeHeight": 0.3,
+  "Icon": "Icons/ModelsGenerated/FlyModel.png",
+  "IconProperties": {
+    "Scale": 1.6,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -4
+    ]
+  },
+  "MinScale": 1,
+  "MaxScale": 1,
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/Spider/Animations/Spider_Idle.blockyanim"
+        }
+      ]
+    },
+    "Spawn": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/Spider/Animations/Spider_Spawn.blockyanim"
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/Basement/Spider/Animations/Spider_Walk.blockyanim"
+        }
+      ]
+    }
+  }
+}
